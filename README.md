@@ -71,31 +71,7 @@ Perído: 2023.1 - 3º Semestre
 
 Código-fonte de exemplo da linguagem `CBR`:
 
-```cbr
-inteiro x;
-inteiro i;
-int resultado;
-
-imprimir "informe um numero natural: ";
-
-ler x;
-
-se x < 0 entao
-    imprimir "numero invalido";
-senao
-    resultado = 1;
-    
-    para i de 1 ate x faca
-
-        resultado = resultado * i;
-
-    fimpara
-
-    imprimir "fatorial:";
-    imprimir resultado;
-
-fimse
-```
+<https://github.com/JoseComparotto/cbr/blob/ef0f5e1c9a9f9a722e0bfc4899024402b19be23b/exemplo.txt>
 
 Código-fonte correspondente na linguagem `Java`:
 
