@@ -71,38 +71,8 @@ Perído: 2023.1 - 3º Semestre
 
 Código-fonte de exemplo da linguagem `CBR`:
 
-<https://github.com/JoseComparotto/cbr/blob/ef0f5e1c9a9f9a722e0bfc4899024402b19be23b/exemplo.txt>
+<https://github.com/JoseComparotto/cbr/blob/ef0f5e1c9a9f9a722e0bfc4899024402b19be23b/exemplo.txt#L1-L23>
 
 Código-fonte correspondente na linguagem `Java`:
 
-```java
-public class exemplo {
-    public static void main(String[] args) {
-        java.util.Scanner teclado = new java.util.Scanner(System.in);
-        int x;
-        int i;
-        int resultado;
-
-        System.out.println("informe um numero natural: ");
-
-        x = teclado.nextInt();
-
-        if (x < 0) {
-            System.out.println("numero invalido");
-        } else {
-            resultado = 1;
-
-            for (i = 1; i <= x; i++) {
-
-                resultado = resultado * i;
-
-            }
-
-            System.out.println("fatorial:");
-            System.out.println(resultado);
-
-        }
-
-    }
-}
-```
+<https://github.com/JoseComparotto/cbr/blob/ef0f5e1c9a9f9a722e0bfc4899024402b19be23b/exemplo.java#L1-L29>
